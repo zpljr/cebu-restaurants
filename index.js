@@ -20,7 +20,7 @@ function init() {
 
   // The map, centered at cebu
   map = new google.maps.Map(document.getElementById("map"), { 
-    zoom: 10,
+    zoom: 12,
     center: cebu,
   });
 
@@ -66,12 +66,6 @@ function searchCallback(results, status) {
       markers.forEach(marker => marker.setMap(null));
       updateDisplay();
     });
-    // placesService.getDetails({ placeId: restaurants[0].place_id }, (result, status) => {
-    //   if (status == google.maps.places.PlacesServiceStatus.OK) {
-    //     console.log(result)
-    //   }
-    // });
-    console.log(restaurants)
   }
 }
 
