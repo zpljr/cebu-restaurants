@@ -1,0 +1,9 @@
+#map {
+    height: 82vh;
+    width: 100%;
+}
+
+.left-sidebar {
+    overflow: auto;
+    max-height: 72vh;
+}
